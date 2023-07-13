@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<style>
+	.container {
+		display:flex;
+		flex-flow: row wrap;
+	}
+	
+	.navigation {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		justify-content: space-around;
+	}
+	
+	.navigation ul {
+		background-color:#F7E1D0;
+		font-size:20px;
+		padding:20%;
+		list-style:none;
+	}
+	
+	.navigation li {
+		margin: 30% 0 30% 0;
+	}
+	
+	.page {
+		display: flex;
+		flex-direction:column;
+		width:70%;
+	}
+	
+	.page h2 {
+		margin-left:10%;
+	}
+	
+	@media screen and (max-width: 480px) {
+  		.container {
+			flex-direction: column;
+		}
+		
+		.navigation {
+			width: auto;
+		}
+		
+		.navigation ul {
+			padding:5%;
+		}
+		
+		.navigation li {
+			display: block;
+			margin: 5%;
+		}
+	}
+	
+	.logo {
+		display: flex;
+		align-items:flex-end;
+		width: auto;
+		margin: 15% 20% 10% 20%;
+	}
+	
+	.logo img {
+		width: 20%;
+	}
+	
+	.featured {
+		display: flex;
+		flex-flow: row wrap;
+		width: auto;
+		margin-left: 10%;
+		align-content: space-around;
+	}
+	
+	.featured img {
+		width: 100px;
+		height: 100px;
+		margin: 1em;
+		overflow: hidden;
+	}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navigation">
+		<ul>
+			<li><img src="images/home.png" alt="Home button." width="10%"><a href="">Home Page</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">CV</a></li>
+			<li><a href="">Portfolio</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+		</div>
+	
+	<div class="page">
+		<div class="logo">
+			<h1>Nanet's Portfolio</h1>
+			<img src="images/flower1.png" alt="A vintage inspired illustration of a red flower.">
+		</div>
+	
+		<h2>Featured Works</h2>
+		<hr>
+		
+		<div class="featured">
+			<img src="images/portfolio-works/portfolio_pwz.jpg" alt="The first illustration.">
+			<img src="images/portfolio-works/portfolio_daniela.jpg" alt="The second illustration.">
+			<img src="images/portfolio-works/portfolio_marcel.jpg" alt="The third illustration.">
+			<img src="images/portfolio-works/portfolio_7ygz.jpg" alt="The fourth illustration.">
+		</div>
+	</div>
+	</div>
+</body>
+</html>
