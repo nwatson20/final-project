@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #D5D1C4;
+}
+
+h1 {
+	color: #707070;
+	font-family: "Lucida Calligraphy";
+	font-size: 45px;
+}
+
+h2 {
+	color: #707070;
+	font-family: "Garamond";
+	font-size: 45px;
+}
+
+h3 {
+	color: #707070;
+	font-family: "Garamond";
+	font-size: 35px;
+}
+
+p {
+	color: #707070;
+	font-family: "Ebrima";
+	font-size: 22px;
+}
+
+ul {
+	color: #707070;
+	list-style: none;
+}
+
+li:before {
+	content: "–  ";
+}
+
+#container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#page {
+	background-color: #FFFFFF;
+	padding: 3em;
+	margin: 30px 50px 30px 186px;
+}
+
+#nav {
+	background-color: #FCF4CE;
+	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	overflow-x: hidden;
+  	padding: 20px 0 0 15px;
+	width: 160px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #707070;
+	font-weight: bolder;
+	display: block;
+	background-color: #EED980;
+	font-family: "Garamond";
+	font-size: 35px;
+	margin: 30px 10px 30px 10px;
+	white-space: nowrap;
+}
+
+#nav a:hover {
+	color: #C56666;
+}
+
+#home p {
+	color: #707070;
+	font-family: "Garamond";
+	font-size: 35px;
+	margin-bottom: 0px;
+}
+
+#home img {
+	width: 30%;
+	background-color: #EED980;
+	margin: 1em;
+	padding: 1em;
+}
+
+.boxGroup {
+	background-color: #F3F3F3;
+	padding: 2em;
+	margin: 2em;
+}
+
+.borderLeft {
+	background-color: #F3F3F3;
+	padding-left: 2em;
+	margin: 2em;
+	border-left-style: dashed;
+	border-left-color: #707070;
+}
