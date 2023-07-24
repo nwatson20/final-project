@@ -13,35 +13,26 @@
 	} );
 </script>
 <style>
-	img {
-		width: 150px;
-		height: 150px;
-		object-fit: cover;
-		margin: 1em;
-	}
-	
-	.imgBlockLeft {
-		display: flex;
-		flex-flow: row wrap;
-	}
-	
-	.imgBlockLeft {
-		display: flex;
-		flex-flow: row wrap;
-	}
-	
-	#accordion {
-		
-	}
 </style>
 </head>
 
 <body>
+	<div id="nav">
+			<ul>
+				<li><div id="home">
+					<a href="index.html"><img src="images/home.png" alt ="Home button."></a>
+				</div></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="portfolio.html">Porfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
 	<div id="page">
 		<h2>Portfolio</h2>
 		<div id="accordion">
 			<h3>Illustration</h3>
-			<div>
+			<div class="rowContain">
 				<div class="imgBlockLeft">
 					<img src="images/portfolio-works/portfolio_pwz.jpg" alt="The Anatomy of Phoenix Wright, a retro style illustration of Phoenix Wright with different body parts and organs labelled with funny anecdotes.">
 					<img src="images/portfolio-works/portfolio_daniela.jpg" alt="A witch character with slime mold hair, tending to her garden.">
@@ -56,7 +47,7 @@
 				</div>
 			</div>
 			<h3>Fibre Art</h3>
-			<div>
+			<div class="rowContain">
 				<div class="imgBlockLeft">
 					<img src="images/portfolio-works/portfolio_bigday.jpg" alt="An embroidery piece of a cheerful looking human shadow cast over a bed of flowers by the sidewalk.">
 					<img src="images/portfolio-works/portfolio_closet.jpg" alt="A fabric collage of the inside of a closet.">
@@ -67,10 +58,14 @@
 				</div>
 			</div>
 			<h3>Studies</h3>
-				<div>
+				<div class="rowContain">
 					<div class="imgBlockLeft">
 						<img src="images/portfolio-works/portfolio_hands.jpg" alt="A digital sketch of two men's torsos and hands.">
 						<img src="images/portfolio-works/portfolio_portrait.jpg" alt="A young woman holding a cat in the sunlight.">
+					</div>
+					<div class="imgBlockRight">
+						<img src="images/portfolio-works/portfolio_cat.jpg" alt="A digital painting of a white cat standing in a patch of sun.">
+						<img src="images/portfolio-works/portfolio_selfportrait.jpg" alt="A colored pencil portrait of a young woman.">
 					</div>
 				</div>
 		</div>
